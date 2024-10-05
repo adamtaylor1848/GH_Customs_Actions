@@ -8,7 +8,7 @@ inputs:
     description: 'S3 bucket region'
     required: false
     default: 'us-east-1' #I don't think this is the region I've used
-dist-folder:
+  dist-folder:
     description: 'Folder to deploy'
     required: true
 runs:
