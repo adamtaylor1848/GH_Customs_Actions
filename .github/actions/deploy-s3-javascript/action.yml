@@ -13,7 +13,7 @@ inputs:
     required: true
 outputs:
   success:
-    website-url:
+      website-url:
       description: 'URL of the deployed website'
 runs:
   using: 'node16'
