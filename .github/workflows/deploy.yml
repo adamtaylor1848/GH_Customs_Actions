@@ -73,4 +73,5 @@ jobs:
           dist-folder: ./dist
           bucket-region: 'eu-north-1'
       - name: Output URL
-        run: echo "Deployed to ${{ steps.deploy.outputs.website-url }}"
+        run: |
+          echo "Deployed to ${{ steps.deploy.outputs.website-url }}"
